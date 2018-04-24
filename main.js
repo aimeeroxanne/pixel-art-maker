@@ -4,7 +4,7 @@
 document.addEventListener("DOMContentLoaded", function() {
 
 var canvas = document.getElementsByClassName('canvas')[0]
-  for (let i = 0; i < 4; i++){
+  for (let i = 0; i < 120; i++){
     let box = document.createElement('div')
     box.classList.add('box')
     canvas.appendChild(box)
